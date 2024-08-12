@@ -26,15 +26,15 @@ export default function Header(){
 
        {/* header for large devices */}
       <div className='text-center w-[100%] py-[0.1cm] text-[#fff] bg-[rgba(5,5,5,0.95)] headerdivforlarge' style={{boxShadow:"-1px 1px 1px 1px rgba(0,0,0,0.2)", zIndex:"999", position:"fixed", transition:"0.3s ease-in-out"}}>
-      <Link href="/"><img src="images/logo.png" width="120" style={{display:"inline-block"}} alt="logo" /></Link>
+      <Link href="/"><img src="images/logo.png" width="120" className='mt-[0.1cm]' style={{display:"inline-block"}} alt="logo" /></Link>
       <div className='ml-[1cm]' style={{display:"inline-block"}}>
       <Link href="/dashboard"><button className='ml-[1cm] menuitems'>Creators</button><img src="images/creator.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></Link>
       <Link href="/dashboard"><button className='ml-[1cm] menuitems'>Marketplace</button><img src="images/nft.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></Link>
       <Link href="/dashboard"><button className='ml-[1cm] menuitems'>Profile</button><img src="images/profile.png" width="22" className='ml-[0.2cm]' style={{display:"inline-block"}}/></Link>
       </div>
       <div className='ml-[1.2cm]' style={{display:"inline-block"}}>
-      <span className='text-[#fff] font-[600]'>NFT marketplace, Creators, DAO, on Base</span>
-      <img src="images/Base.png" width="30" className='ml-[0.2cm] rounded-[100%]' style={{display:"inline-block"}} />
+      <span className='text-[#fff] font-[600]'>NFT marketplace, Creators, DAO, on BNB Smart Chain</span>
+      <img src="images/bnb.png" width="30" className='ml-[0.2cm] rounded-[100%]' style={{display:"inline-block"}} />
       </div>
       <div className="ml-[1cm] mb-[0.2cm]" style={{display:"inline-block"}}>
       <w3m-button />
@@ -47,7 +47,7 @@ export default function Header(){
       {menu ? 
       (<div className='px-[0.3cm] pb-[0.3cm] bg-[rgba(5,5,5,0.95)]' style={{display:"block"}}>
       <img src="images/menu.png" width="35" onClick={(e) => changemenubehaviour1(e)} className='cursor-pointer my-[auto] pt-[0.3cm]' style={{display:"inline-block"}}/>
-      <Link href="/"><img src="images/logo.png" width="100" className='float-right' style={{display:"inline-block"}}/></Link>
+      <Link href="/"><img src="images/logo.png" width="100" className='float-right mt-[0.1cm]' style={{display:"inline-block"}}/></Link>
       </div>) : 
  
       (<div className='bg-[rgba(0,0,0,0.85)] pb-[100%]'>
@@ -63,7 +63,7 @@ export default function Header(){
        </div>
        <div className='mt-[1cm]' style={{display:"block"}}>
        <Link href="/" onClick={(e) => changemenubehaviour2(e)}><img src="images/logo.png" width="140" style={{display:"inline-block"}}/></Link>
-       <Link href="https://base.org/" onClick={(e) => changemenubehaviour2(e)}><img src="images/Base.png" width="30" className='ml-[0.5cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
+       <Link href="https://testnet.bscscan.com/" onClick={(e) => changemenubehaviour2(e)}><img src="images/bnb.png" width="30" className='ml-[0.5cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
        </div>
       </div>
       </div>

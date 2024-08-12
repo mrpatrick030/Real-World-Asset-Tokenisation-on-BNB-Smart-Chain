@@ -4,7 +4,7 @@ import DisableRightClick from '@/components/disablerightclick';
 import DisableDrag from '@/components/disabledrag';
 export const metadata = {
   title: 'Optic Odyssey',
-  description: 'Explore, discover NFTs and make your photos work for you on Base'
+  description: 'Explore, discover NFTs and make your photos work for you on BNB Smart Chain'
 }
 
 export default function App({ Component, pageProps }) {

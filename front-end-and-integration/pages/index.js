@@ -52,12 +52,12 @@ export default function Home(){
 
 
    <div className='lg:mx-[-8%] mx-[-5%] firstsectiondiv' style={{backgroundImage:"url(images/womanbg.jpg)", transition:"0.3s ease-in-out"}}>
-   <div className='bg-[rgba(0,0,0,0.3)] lg:pb-[17%] pb-[50%]'>
-   <div className='text-center text-[150%] lg:text-[200%] md:text-[180%] pt-[1.5cm] font-[500] text-[#ddd]'>Explore, discover, tokenize and make your art/photos work for you on Base</div>
+   <div className='bg-[rgba(0,0,0,0.3)] lg:pb-[17%] pb-[20%]'>
+   <div className='text-center text-[150%] lg:text-[200%] md:text-[180%] pt-[1.5cm] font-[500] text-[#ddd]'>Explore, discover, tokenize and make your art/photos work for you on BNB Smart Chain</div>
    <div className='text-center my-[0.5cm]'><img src="images/photographer.png" className='m-[auto]' width="50" style={{display:"inline-block"}} /> <img src="images/art-and-design.png" className='m-[auto] ml-[0.2cm]' width="40" style={{display:"inline-block"}} /></div>
    <div className='mt-[1cm] text-center lg:text-[140%] text-[120%] lg:mx-[20%] md:mx-[10%] mx-[5%] p-[1cm] lg:px-[2cm] text-[#ccc] bg-[rgba(0,0,0,0.9)]' style={{border:"1px solid #502"}}>
     <div data-aos="fade-in" className='info1' style={{transition:"0.5s ease-in-out"}}>
-     Optic Odyssey NFT Marketplace: Explore and tokenize your art/photos to NFTs on Base. The NFT marketplace is where all NFTs created on Optic Odyssey are being sold.
+     Optic Odyssey NFT Marketplace: Explore and tokenize your art/photos to NFTs on BNB Smart Chain. The NFT marketplace is where all NFTs created on Optic Odyssey are being sold.
      You can fix a price for your NFTs or set them up for bidding. Highest bidder can then buy the NFT. Defaulters of the marketplace will be penalized.
      Listing an NFT on the marketplace is free and only the buyer pays for transaction fees. These transaction fees will be used to fund photographers/creators seeking for funding.
     </div>
@@ -73,7 +73,7 @@ export default function Home(){
    </div>
    <div className='mt-[1cm] text-center' style={{transition:"0.3s ease-in-out"}}>
     <Link href="/dashboard"><button className='m-[0.2cm] rounded-md bg-[#502] px-[0.3cm] py-[0.2cm] text-[#fff] generalbutton ecobutton' style={{border:"2px solid #502"}}>Explore NFT marketplace <img src="images/nft.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link>
-    <Link href="https://github.com/mrpatrick030/Optic-Odyssey-Base-network/blob/main/README.md"><button className='m-[0.2cm] rounded-md bg-[#111] px-[0.3cm] py-[0.2cm] text-[#fff] generalbutton docbutton' style={{border:"2px solid #502"}}>Documentation <img src="images/documentation.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link>
+    <Link href="https://github.com/mrpatrick030/Real-World-Asset-Tokenisation-on-BNB-Smart-Chain/blob/main/README.md"><button className='m-[0.2cm] rounded-md bg-[#111] px-[0.3cm] py-[0.2cm] text-[#fff] generalbutton docbutton' style={{border:"2px solid #502"}}>Documentation <img src="images/documentation.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link>
     <Link href="/dashboard"><button className='m-[0.2cm] rounded-md bg-[#111] px-[0.3cm] py-[0.2cm] text-[#fff] generalbutton daobutton' style={{border:"2px solid #502"}}>Optic Odyssey DAO <img src="images/dao.png" width="25" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link>
    </div>
    {allowAutoNav ? (<div className='text-center mt-[1cm]'>You will be automatically navigated to the dashboard in {count} seconds....</div>) : 

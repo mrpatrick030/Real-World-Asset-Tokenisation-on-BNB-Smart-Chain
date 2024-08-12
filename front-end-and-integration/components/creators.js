@@ -171,7 +171,7 @@ export default function Creators() {
                 <img src={data[1]} className="mx-[auto] rounded-t-xl w-[100%]" />
                 <div className="mt-[0.2cm] p-[0.5cm]">
                 <div className="text-[150%] font-[500] overflow-auto">{bytes32ToString(data[0])}</div>
-                <div className="text-[#aaa]">Total sales: {parseFloat(data[3].toString() * 10 **-18).toFixed(6)} RBTC</div>
+                <div className="text-[#aaa]">Total sales: {parseFloat(data[3].toString() * 10 **-18).toFixed(6)} BNB</div>
                 <div className="text-[#ccc]"><span>Joined at:</span> {new Date(data[4].toString() * 1000).toLocaleString()}</div>
                 <div onClick={(e) => {e.preventDefault(); getTheData(data[2]) & readCoverPhoto(data[2]) & setpreferredDisplay("profile")}} className="font-[500] mt-[0.2cm] cursor-pointer" style={{display:"inline-block"}} ><img src="images/add.png" width="17" className="mt-[-0.05cm]" style={{display:"inline-block"}} /> View profile</div>
                 </div>
@@ -194,7 +194,7 @@ export default function Creators() {
          <div className='p-[0.5cm] bg-[#000]'>
         <div className='clear-both'>
          <span className='lg:text-[200%] md:text-[180%] text-[150%] font-[500]'>{registeredUsername ? (<span>{bytes32ToString(registeredUsername)}</span>) : (<span>user</span>)}</span>
-         <div className='lg:float-right md:float-right mt-[0.1cm] font-[500]'>{soldBalance > 0 ? (<span>Total sales: {parseFloat(soldBalance).toFixed(6)} RBTC</span>) : (<span>Total sales: 0 RBTC</span>)}</div>
+         <div className='lg:float-right md:float-right mt-[0.1cm] font-[500]'>{soldBalance > 0 ? (<span>Total sales: {parseFloat(soldBalance).toFixed(6)} BNB</span>) : (<span>Total sales: 0 BNB</span>)}</div>
         </div>
          <div>
            <div className='lg:float-right md:float-right lg:mt-[-0.2cm] md:mt-[-0.2cm] mt-[0.2cm]'>

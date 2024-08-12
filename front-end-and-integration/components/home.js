@@ -130,7 +130,7 @@ import { BrowserProvider, Contract, formatUnits, parseUnits } from 'ethers'
         </div>
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-8 mt-[1cm]">
        <div className="grid-cols-1">
-        <div className="text-[150%] font-[500]">1.8 RBTC</div>
+        <div className="text-[150%] font-[500]">18 BNB</div>
         <div className="text-[#aaa]">Funds raised</div>
        </div>
        <div className="grid-cols-1">
@@ -161,7 +161,7 @@ import { BrowserProvider, Contract, formatUnits, parseUnits } from 'ethers'
         <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-8">
           {getCollections.map((data) => (
             <div className="grid-cols-1 cursor-pointer" onClick={(e) => {e.preventDefault(); setDisplayComponent("marketplace") & changeBg5(e)}}>
-            <div className="rounded-2xl py-[40%]" style={{backgroundImage:`url(https://ipfs.filebase.io/ipfs/${data[3]})`, backgroundSize:"160%", backgroundPositionX:"50%", border:"3px solid #aaa"}}>
+            <div className="rounded-2xl py-[40%]" style={{backgroundImage:`url(https://ipfs.filebase.io/ipfs/${data[3]})`, backgroundSize:"200%", backgroundPositionX:"50%", border:"3px solid #aaa"}}>
               <div className="lg:text-[150%] text-[120%] text-right"><span className="rounded-[110%] p-[0.3cm] bg-[#000] mr-[0.25cm]" style={{border:"2px solid #aaa"}}>+{data[5].length.toString()}</span></div>
             </div>
             <div className="font-[500] lg:text-[130%] text-[120%] mt-[0.2cm]">{bytes32ToString(data[0])}</div>
@@ -183,7 +183,7 @@ import { BrowserProvider, Contract, formatUnits, parseUnits } from 'ethers'
             <img src={data[1]} className="rounded-t-2xl w-[100%]" />
             <div className="mt-[0.2cm] p-[0.5cm]">
             <div className="lg:text-[150%] text-[120%] font-[500] overflow-auto">{bytes32ToString(data[0])}</div>
-            <div className="text-[#aaa]">Total sales: {parseFloat(data[3].toString() * 10 **-18).toFixed(6)} RBTC</div>
+            <div className="text-[#aaa]">Total sales: {parseFloat(data[3].toString() * 10 **-18).toFixed(6)} BNB</div>
             </div>
             </div>
               ))}
