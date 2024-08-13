@@ -17,7 +17,7 @@ const BNBsmartchainTestnet = {
   name: 'BNB Smart Chain Testnet',
   currency: 'tBNB',
   explorerUrl: 'https://testnet.bscscan.com/',
-  rpcUrl: 'https://public.stackup.sh/api/v1/node/bsc-testnet'
+  rpcUrl: 'https://bsc-testnet-rpc.publicnode.com'
 }
 
 // 3. Create a metadata object

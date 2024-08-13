@@ -76,7 +76,7 @@ import { BrowserProvider, Contract, formatUnits, parseUnits } from 'ethers'
               const item = allcollectiondetails[i]
               theCollectionsArray.push(item)
             }
-            theCollectionsArray.sort((a, b) => b[4].toString() - a[4].toString())
+            theCollectionsArray.sort((a, b) => b[1].toString() - a[1].toString())
             setgetCollections(theCollectionsArray.slice(0, 3))
           } catch (error) {
             console.log(error)

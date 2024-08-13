@@ -166,7 +166,7 @@ export default function Marketplace() {
             const getAllcollections = getallpubliccollections[i]
             getAllCollectionsArray.push(getAllcollections)
         }
-        getAllCollectionsArray.sort((a, b) => b[4].toString() - a[4].toString())
+        getAllCollectionsArray.sort((a, b) => a[0].toString() - b[0].toString())
         setallPublicCollections(getAllCollectionsArray)
       } catch (error) {
         console.log(error)
