@@ -6,14 +6,10 @@
 |---------------|--------------------------------------------|---------------------|
 | HUB           | [0x5De93b7d36E1bDECA9438A4B3C0e64E5fb637e76](https://rootstock-testnet.blockscout.com/address/0x5De93b7d36E1bDECA9438A4B3C0e64E5fb637e76) | Verified           |
 
-## Overview
-
-OpticOdyssey is a smart contract deployed on the Rootstock blockchain that manages users, collections, items, and offers in a decentralized marketplace. This platform is tailored for photographers and artists to showcase and sell their work in a decentralized manner.
 
 ## Prerequisites
 
 - Solidity version: ^0.8.18
-- Rootstock testnet or mainnet access
 - OpticOdysseyNft contract
 
 ## Smart Contract: `OpticOdyssey`
@@ -209,9 +205,3 @@ contract OpticOdysseyNft is ERC721URIStorage, Ownable {
     }
 }
 ```
-
-## rootstock testnet address: 0xbb7358f68f32ecc25a1afc91869314e2a3443846295797aabfce0c58c2fcf0dc
-
-
-
-
